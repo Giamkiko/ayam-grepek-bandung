@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayam Geprek Asik</title>
+  <link rel="icon" type="image/png" href="da090132f9c25ffe61964c9dc10dcfbf.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    html { scroll-behavior: smooth; }
+    .fade-in { opacity: 0; transform: translateY(20px); animation: fadeInUp 0.8s forwards; }
+    @keyframes fadeInUp { to { opacity: 1; transform: none; } }
+  </style>
+</head>
+
+<body class="bg-gradient-to-b from-orange-50 via-yellow-50 to-orange-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-red-600 to-yellow-500 text-white text-center p-8 shadow-md">
+    <img src="da090132f9c25ffe61964c9dc10dcfbf.png" alt="Logo Ayam Geprek" class="w-24 mx-auto mb-3">
+    <h1 class="text-4xl font-extrabold tracking-wide drop-shadow">Ayam Geprek Asik</h1>
+    <p class="text-lg mt-2 italic">Pedasnya Bikin Nagih!</p>
+  </header>
+
+  <!-- Tombol Navigasi -->
+  <div class="text-center mt-6 mb-4">
+    <a href="#menu" class="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-6 rounded-full shadow inline-block">Lihat Menu</a>
+    <a href="#pembayaran" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-6 rounded-full shadow inline-block ml-4">Pembayaran</a>
+    <a href="#kontak" class="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-full shadow inline-block ml-4">Kontak</a>
+  </div>
+
+  <!-- Tentang Kami -->
+  <section class="py-10 px-4 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center mb-6">Tentang Kami</h2>
+    <div class="bg-white shadow p-6 rounded-lg text-center">
+      <img src="Kisah-Sukses-Colonel-Sanders-Pendiri-KFC-Perencana-Keuangan-Independen-Finansialku.jpg" alt="Owner" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover shadow">
+      <p class="text-lg">Kami adalah usaha rumahan yang menyajikan ayam geprek dengan sambal khas dan cita rasa menggoda. Kami percaya bahwa makanan enak bisa membuat hari siapa pun lebih baik!</p>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section class="py-10 px-4 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center mb-8">Galeri</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <img src="da090132f9c25ffe61964c9dc10dcfbf.png" alt="Ayam Geprek Asik" class="rounded shadow">
+      <img src="Warung-Ayam-Geprek-Lesehan-768x512.png" class="rounded shadow">
+      <img src="bisnis-ayam-geprek-1024x576.jpg" class="rounded shadow">
+      <img src="ayam gwprwk.jpg" class="rounded shadow">
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-12 px-4 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center mb-10">Menu Favorit</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <img src="bisnis-ayam-geprek-1024x576.jpg" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-1">Ayam Geprek Original</h3>
+          <p class="text-sm text-gray-600">Crispy dan sambal super pedas</p>
+          <p class="font-semibold text-red-600 mt-3">Rp 15.000</p>
+          <a href="https://wa.me/6281234567890?text=Pesan%20Ayam%20Geprek%20Original" target="_blank" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Pesan</a>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <img src="photo.jpg" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-1">Ayam Geprek Keju</h3>
+          <p class="text-sm text-gray-600">Lelehan keju menggoda lidah</p>
+          <p class="font-semibold text-red-600 mt-3">Rp 18.000</p>
+          <a href="https://wa.me/6281234567890?text=Pesan%20Ayam%20Geprek%20Keju" target="_blank" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Pesan</a>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <img src="ayam-geprek-sambal-setan-level-260nw-1305061948.webp" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-1">Ayam Geprek Level 10</h3>
+          <p class="text-sm text-gray-600">Untuk para pecinta tantangan!</p>
+          <p class="font-semibold text-red-600 mt-3">Rp 17.000</p>
+          <a href="https://wa.me/6281234567890?text=Pesan%20Ayam%20Geprek%20Level%2010" target="_blank" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Pesan</a>
+        </div>
+      </div>
+      <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <img src="maxresdefault.jpg" alt="Ayam Geprek Sambal Ijo" class="w-full h-52 object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-1">Ayam Geprek Sambal Ijo</h3>
+          <p class="text-sm text-gray-600">Spesial sambal ijo pedas segar</p>
+          <p class="font-semibold text-red-600 mt-3">Rp 20.000</p>
+          <a href="https://wa.me/6281234567890?text=Pesan%20Ayam%20Geprek%20Sambal%20Ijo" target="_blank" class="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Pesan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pembayaran Section -->
+  <section id="pembayaran" class="py-10 px-4 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center mb-6">Metode Pembayaran</h2>
+    <div class="grid sm:grid-cols-2 gap-6 text-center">
+      <div class="bg-white p-5 rounded shadow">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_dana_blue.svg" alt="DANA" class="w-16 h-16 mx-auto mb-2">
+        <p class="font-bold text-lg">DANA</p>
+        <p>No: 0812-3456-7890 a.n. Geprek Asik</p>
+      </div>
+      <div class="bg-white p-5 rounded shadow">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logo_OVO_purple.svg/512px-Logo_OVO_purple.svg.png" alt="OVO" class="w-16 h-16 mx-auto mb-2">
+        <p class="font-bold text-lg">OVO</p>
+        <p>No: 0812-3456-7890 a.n. Geprek Asik</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section class="bg-white py-12 px-4">
+    <h2 class="text-3xl text-center font-semibold mb-10">Kata Pelanggan</h2>
+    <div class="max-w-5xl mx-auto grid sm:grid-cols-2 gap-8">
+      <div class="bg-orange-100 p-6 rounded shadow-md">
+        <p class="italic">"Enak banget! Sambalnya nampol!"</p>
+        <p class="text-sm font-bold mt-3 text-right">– Rina, Mahasiswa</p>
+      </div>
+      <div class="bg-orange-100 p-6 rounded shadow-md">
+        <p class="italic">"Gepreknya gurih, sambalnya pas! Repeat order terus!"</p>
+        <p class="text-sm font-bold mt-3 text-right">– Dedi, Karyawan</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-10 px-4 max-w-3xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center mb-6">Kontak & Lokasi</h2>
+    <div class="bg-white shadow p-6 rounded-lg text-center">
+      <p class="mb-2">Alamat: Jl. Pedas Mantap No. 123, Kota Rasa</p>
+      <p class="mb-2">Telepon: 0812-3456-7890</p>
+      <p>Email: geprekasik@email.com</p>
+    </div>
+  </section>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/6281234567890" target="_blank" class="fixed bottom-5 right-5 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg text-xl z-50 hover:bg-green-600">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-red-600 to-yellow-500 text-white text-center p-6">
+    <p>&copy; 2025 Ayam Geprek Asik. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
